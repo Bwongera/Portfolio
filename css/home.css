@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body-container{
+background: #3b3b3b;
+    font-family: arial, sans-serief;
+}
