@@ -17,11 +17,16 @@ body{
     padding-right: 110px;
 }
 #menu-container{
+    cursor: pointer;
     display: flex;
     gap: 15px;
     font-size: 25px;
     color: aliceblue;
     margin-right: 300px;
+
+}
+#menu-container a:hover{
+    color: #38bdf8;
 
 }
 #logo img{
