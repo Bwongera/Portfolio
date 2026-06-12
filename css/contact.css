@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Verdana, sans-serif;
+}
+#form-container{
+    justify-content: center;
+    display: flex;
+}
+#boxes-container{
+    background: #ffba37;
+    width: 58%;
+    margin-top: 1%;
+}
+#top-section-container{
+    justify-content: center;
+    display: flex;
+    margin: 3px;
+    gap: 15px;
+}
+#box-1{
+    background: yellow;
+    padding: 3px;
+    width: 47%;
+}
+#box-2{
+   background: green;
+    padding: 3px;
+    width: 47%; 
+}
+#a-container{
+    background: white;
+    padding: 5px;
+    width: 97.5%;
+    border-radius: 10px;
+}
+.input-container{
+    margin: 15px;
+}
+input{
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    color: darkgray;
+    outline: none;
+    padding: 10px;
+    width: 95%;
+}
+
+::placeholder{
+    color: darkgray;
+}
+#below-section-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px 3px 3px 3px;
+}
+#box-3{
+    background: #0855f3;
+    padding: 3px;
+    width: 95.8%;
+    
+}
+#b-container{
+    background: white;
+    padding: 18px;
+    width: 96.5%; 
+    border-radius: 10px;
+
+}
+#message-container, #button-container{
+    margin-bottom: 30px;
+}
+textarea{
+    width: 97.3%;
+    border-radius: 10px;
+    height: 150px;
+    outline: none;
+    resize: none;
+    padding: 10px;
+}
+#button-container{
+    display: flex;
+    justify-content: center;
+}
+#button-container10{
+    background: blue;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 15px;
+    border: none;
+}
